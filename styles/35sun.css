@@ -1,0 +1,121 @@
+body{font-family: Arial Black, monospace;margin: 0;background-image: url(../res/img/35sun.png);}
+html{
+    overflow:hidden;
+}
+.title{
+	position: absolute;
+	padding: 5px 32% 5px 31%;
+	background-color: rgba(128,128,128,0.3);
+	z-index: 5;
+	margin: 8px 8px 8px 8px;
+}
+div{
+	border-style: solid;
+	border-color: rgba(0,0,0,0);
+	padding: 20px;
+	color: white;
+	width: 400px;
+	background-color: rgba(128,128,128,0.3);
+	position: absolute;
+	top: 110px;
+	left: 8px;
+	text-align: justify;
+}
+a{
+	text-decoration: none;
+}
+.sun{
+	border-color:black;
+    font-size: 0px;
+    padding: 5px;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    position: fixed;
+    left: 855px;
+	top: 424px;
+}
+.sun:hover{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1) translateY(-20px);
+    transition-duration: 1s;
+}
+.sirius{
+	border-color:black;
+    font-size: 0px;
+    padding: 5px;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    position: fixed;
+    left: 1220px;
+	top: 616px;
+}
+.sirius:hover{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1) translateY(-20px);
+    transition-duration: 1s;
+}
+.rigel_cet{
+	border-color:black;
+    font-size: 0px;
+    padding: 5px;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    position: fixed;
+    left: 1010px;
+	top: 386px;
+}
+.rigel_cet:hover{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1) translateY(-20px);
+    transition-duration: 1s;
+}
+.vega{
+	border-color:black;
+    font-size: 0px;
+    padding: 5px;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    position: fixed;
+    left: 257px;
+	top: 513px;
+}
+.vega:hover{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1) translateY(-20px);
+    transition-duration: 1s;
+}
+.altair{
+	border-color:black;
+    font-size: 0px;
+    padding: 5px;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    position: fixed;
+    left: 415px;
+	top: 330px;
+}
+.altair:hover{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: bottom;
+    transform: scale(1) translateY(-20px);
+    transition-duration: 1s;
+}

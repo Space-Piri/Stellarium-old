@@ -1,0 +1,47 @@
+body{font-family: Arial Black, monospace;margin: 0;}
+html{
+    overflow:hidden;
+}
+.title{
+    position: absolute;
+    padding: 5px 32% 5px 31%;
+    background-color: rgba(128,128,128,0.3);
+    z-index: 5;
+    margin: 8px 8px 8px 8px;
+}
+div{
+    border-style: solid;
+    border-color: rgba(0,0,0,0);
+    padding: 20px;
+    color: white;
+    width: 400px;
+    background-color: rgba(128,128,128,0.3);
+    position: absolute;
+    top: 110px;
+    left: 8px;
+    text-align: justify;
+}
+.sgrA{
+	position: absolute;
+	left: 945px;
+	top: 505px;
+	border-radius: 50%;
+	padding: 10px;
+	text-decoration: none;
+}
+.s_sgrA{
+    font-size: 0px;
+    padding: 5px;
+    border-color:black;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+}
+a:hover .s_sgrA{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1);
+    transition-duration: 1s;
+}

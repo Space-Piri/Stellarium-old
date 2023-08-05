@@ -1,0 +1,310 @@
+body{
+	background:url(../res/img/stars.png);
+	font-family: Arial Black;
+}
+
+.title{
+	padding: 5px 32% 5px 31.5%;
+	background-color: rgba(128,128,128,0.3);
+}
+
+nav{border-style: solid;
+	border-color: rgba(0,0,0,0);
+	background-color: rgba(128,128,128,0.3);
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	display: inline-block;
+	padding-left: 255px;
+}
+
+a{
+	text-decoration: none;
+	color: white
+}
+
+.stars {
+  display: inline-block;
+  position: relative;
+  color: white;
+  z-index: 5;
+}
+
+.stars p {
+  display: inline-block;
+  width: 100px;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.stars .stars_block {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10px;
+}
+
+.stars:hover .stars_block,
+.dropdown_block:hover {
+  display: block;
+}
+
+.stars ul {
+  display: block;
+  width: 100%;
+  background-color: rgba(128,128,128,1);
+  padding: 20px 80px 0px 0px;
+  margin: 10px 0 0;
+  list-style: none;
+  height: 120px;
+  overflow: hidden auto;
+}
+
+.stars li {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+}
+q{
+  color: rgba(0,0,0,0); margin:-6px;
+}
+.eplanets {
+  display: inline-block;
+  position: relative;
+  color: white;
+  z-index: 5;
+}
+
+.eplanets p {
+  display: inline-block;
+  width: 100px;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.eplanets .eplanets_block {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10px;
+}
+
+.eplanets:hover .eplanets_block,
+.dropdown_block:hover {
+  display: block;
+}
+
+.eplanets ul {
+  display: block;
+  width: 150px;
+  background-color: rgba(128,128,128,1);
+  padding: 20px 80px 0px 0px;
+  margin: 10px 0 0;
+  list-style: none;
+  height: 120px;
+  overflow: hidden auto;
+}
+
+.eplanets li {
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+}
+.mis {
+  display: inline-block;
+  position: relative;
+  color: white;
+  z-index: 5;
+}
+
+.mis p {
+  display: inline-block;
+  width: 100px;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.mis .mis_block {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10px;
+}
+
+.mis:hover .mis_block,
+.dropdown_block:hover {
+  display: block;
+}
+
+.mis ul {
+  display: block;
+  width: 150px;
+  background-color: rgba(128,128,128,1);
+  padding: 20px 80px 0px 0px;
+  margin: 10px 0 0;
+  list-style: none;
+  height: 90px;
+  overflow: hidden auto;
+}
+
+.mis li {
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+}
+.info{
+  border-style: solid;
+  border-color: rgba(0,0,0,0);
+  padding: 20px;
+  color: white;
+  width: 600px;
+  height: 676px;
+  background-color: rgba(128,128,128,0.3);
+  text-align: justify;
+  margin-top: 6px;
+  font-size: 99%;
+}
+.slider_container{
+position: absolute;
+background-color: rgba(128,128,128,0.3);
+padding:20px;
+left: 660px;
+top: 169px;
+width: 1212px;
+height: 682px;
+}
+.slider_container video{
+  width: 100%;
+  height: 100%;
+}
+.slider_container img{
+  position: absolute;
+  width: 1212px;
+  height: 682px;
+  left: 20px;
+  top: 20px;
+}
+.slide1 {
+  animation:slideone 100s linear infinite;      
+}
+.slide2 {
+  animation:slidetwo 100s linear infinite;   
+}
+.slide3 {
+  animation:slidethree 100s linear infinite;   
+}
+.slide4 {
+  animation:slidefour 100s linear infinite;    
+}
+.slide5 {
+  animation:slidefive 100s linear infinite;    
+}
+.slide6 {
+  animation:slidesix 100s linear infinite;    
+}
+.slide7 {
+  animation:slideseven 100s linear infinite;    
+}
+.slide8 {
+  animation:slideeight 100s linear infinite;    
+}
+.slide9 {
+  animation:slidenine 100s linear infinite;    
+}
+.slide10 {
+  animation:slideten 100s linear infinite;    
+}
+@keyframes slideone {
+  0% {opacity: 1;} 
+  8% {opacity: 1;} 
+  10% {opacity: 0;} 
+  98% {opacity: 0;} 
+}
+@keyframes slidetwo {
+  0% {opacity: 0;}
+  11% {opacity: 0;}
+  13% {opacity: 1;} 
+  18% {opacity: 1;} 
+  20% {opacity: 0;} 
+  100% {opacity: 0;}  
+}
+@keyframes slidethree {
+  0% {opacity: 0;}
+  21% {opacity: 0;}
+  23% {opacity: 1;} 
+  28% {opacity: 1;} 
+  30% {opacity: 0;} 
+  100% {opacity: 0;} 
+}
+@keyframes slidefour {
+  0% {opacity: 0;}
+  31% {opacity: 0;}
+  33% {opacity: 1;} 
+  38% {opacity: 1;} 
+  40% {opacity: 0;} 
+  100% {opacity: 0;}  
+}
+@keyframes slidefive {
+  0% {opacity: 0;}
+  41% {opacity: 0;}
+  43% {opacity: 1;} 
+  48% {opacity: 1;} 
+  50% {opacity: 0;} 
+  100% {opacity: 0;} 
+}
+
+@keyframes slidesix {
+  0% {opacity: 0;}
+  51% {opacity: 0;}
+  53% {opacity: 1;} 
+  58% {opacity: 1;} 
+  60% {opacity: 0;} 
+  100% {opacity: 0;} 
+}
+@keyframes slideseven {
+  0% {opacity: 0;}
+  61% {opacity: 0;}
+  63% {opacity: 1;} 
+  68% {opacity: 1;} 
+  70% {opacity: 0;} 
+  100% {opacity: 0;} 
+}
+@keyframes slideeight {
+  0% {opacity: 0;}
+  71% {opacity: 0;}
+  73% {opacity: 1;} 
+  78% {opacity: 1;} 
+  80% {opacity: 0;} 
+  100% {opacity: 0;} 
+}
+@keyframes slidenine {
+  0% {opacity: 0;}
+  81% {opacity: 0;}
+  83% {opacity: 1;} 
+  88% {opacity: 1;} 
+  90% {opacity: 0;} 
+  100% {opacity: 0;} 
+}
+@keyframes slideten {
+  0% {opacity: 0;}
+  91% {opacity: 0;}
+  93% {opacity: 1;} 
+  98% {opacity: 1;} 
+  100% {opacity: 0;}
+}
+footer{
+  background-color: rgba(128,128,128,0.3);
+  color: white;
+  margin-top: 6px;
+  padding: 20px 20px 20px 840px;
+}

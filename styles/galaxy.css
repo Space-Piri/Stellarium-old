@@ -1,0 +1,193 @@
+body{background:url(../res/img/stars.png);font-family: Arial Black, monospace;}
+.galaxy{
+	position: absolute;
+	left: 440px;
+	height: 995px;
+	z-index: 0;
+}
+html{
+    overflow:hidden;
+}
+a{
+	text-decoration: none;
+}
+.title{
+	position: absolute;
+	padding: 5px 32% 5px 31%;
+	background-color: rgba(128,128,128,0.3);
+	z-index: 5;
+}
+#center{
+	position: absolute;
+	left: 870px;
+	top: 410px;
+	border-radius: 50%;
+	padding: 10px;
+	z-index: 100;
+}
+.center_img{
+	opacity: 0;
+    position: fixed;
+}
+.center_a{
+	border-color:black;
+    font-size: 0px;
+    padding: 5px;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    position: fixed;
+    left: 980px;
+	top: 480px;
+	z-index: 500;
+}
+#center:hover .center_a{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1);
+    transition-duration: 1s;
+}
+#center:hover .center_img{
+	opacity: 0.2;
+}
+#orion{
+	position: absolute;
+	left: 860px;
+	top: 650px;
+	z-index: 100;
+}
+.orion_img{
+	opacity: 0;
+	position: fixed;
+}
+.orion_a{
+	position: fixed;
+    font-size: 0px;
+    padding: 5px;
+    border-color:black;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    display: block;
+    left: 1000px;
+	top: 740px;
+	z-index: 100;
+}
+#orion:hover .orion_img{
+	opacity: 0.2;
+}
+#orion:hover .orion_a{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1);
+    transition-duration: 1s;
+}
+#perseus{
+	position: absolute;
+    z-index: 1;
+    left: 730px;
+    bottom: 688px;
+}
+.perseus_img{
+	opacity: 0;
+	position: fixed;
+	z-index: 1;
+}
+.perseus_a{
+	position: fixed;
+    font-size: 0px;
+    padding: 5px;
+    border-color:black;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    display: block;
+    left: 1000px;
+	top: 740px;
+	z-index: 2;
+}
+#perseus:hover .perseus_img{
+	opacity: 0.2;
+}
+#perseus:hover .perseus_a{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1);
+    transition-duration: 1s;
+}
+#centaurus{
+    position: absolute;
+    z-index: 3;
+    left: 490px;
+    bottom: 883px;
+}
+.centaurus_img{
+    opacity: 0;
+    position: fixed;
+    z-index: 3;
+}
+.centaurus_a{
+    position: fixed;
+    font-size: 0px;
+    padding: 5px;
+    border-color:black;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    display: block;
+    left: 800px;
+    top: 540px;
+    z-index: 4;
+}
+#centaurus:hover .centaurus_img{
+    opacity: 0.2;
+}
+#centaurus:hover .centaurus_a{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1);
+    transition-duration: 1s;
+}
+#sagittarius{
+    position: absolute;
+    z-index: 1;
+    left: 790px;
+    bottom: 970px;
+}
+.sagittarius_img{
+    opacity: 0;
+    position: fixed;
+    z-index: 1;
+}
+.sagittarius_a{
+    position: fixed;
+    font-size: 0px;
+    padding: 5px;
+    border-color:black;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    display: block;
+    left: 1100px;
+    top: 640px;
+    z-index: 2;
+}
+#sagittarius:hover .sagittarius_img{
+    opacity: 0.2;
+}
+#sagittarius:hover .sagittarius_a{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1);
+    transition-duration: 1s;
+}

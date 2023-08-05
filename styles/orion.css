@@ -1,0 +1,168 @@
+body{font-family: Arial Black, monospace;margin: 0;background-image: url(../res/img/orion_.png);}
+html{
+    overflow:hidden;
+}
+.title{
+	position: absolute;
+	padding: 5px 32% 5px 31%;
+	background-color: rgba(128,128,128,0.3);
+	z-index: 5;
+	margin: 8px 8px 8px 8px;
+}
+div{
+	border-style: solid;
+	border-color: rgba(0,0,0,0);
+	padding: 20px;
+	color: white;
+	width: 400px;
+	background-color: rgba(128,128,128,0.3);
+	position: absolute;
+	top: 110px;
+	left: 8px;
+	text-align: justify;
+}
+a{
+	text-decoration: none;
+}
+.kepler{
+    padding: 5px;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    position: fixed;
+    left: 482px;
+    top: 480px;
+}
+.sun{
+	border-color:black;
+    font-size: 0px;
+    padding: 5px;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    position: fixed;
+    left: 902px;
+	top: 480px;
+}
+.sun:hover{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1) translateY(-20px);
+    transition-duration: 1s;
+}
+.antares{
+    border-color:black;
+    font-size: 0px;
+    padding: 5px;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    position: fixed;
+    left: 903px;
+    top: 367px;
+}
+.antares:hover{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1) translateY(-20px);
+    transition-duration: 1s;
+}
+.polaris{
+    border-color:black;
+    font-size: 0px;
+    padding: 5px;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    position: fixed;
+    left: 840px;
+    top: 580px;
+}
+.polaris:hover{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1) translateY(-20px);
+    transition-duration: 1s;
+}
+.pleades{
+    border-color:black;
+    font-size: 0px;
+    padding: 5px;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    position: fixed;
+    left: 930px;
+    top: 600px;
+}
+.pleades:hover{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1) translateY(-20px);
+    transition-duration: 1s;
+}
+.betelgeuse{
+    border-color:black;
+    font-size: 0px;
+    padding: 5px;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    position: fixed;
+    left: 1002px;
+    top: 620px;
+}
+.betelgeuse:hover{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1) translateY(-20px);
+    transition-duration: 1s;
+}
+.rigel{
+    border-color:black;
+    font-size: 0px;
+    padding: 5px;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    position: fixed;
+    left: 1110px;
+    top: 670px;
+}
+.rigel:hover{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1) translateY(-20px);
+    transition-duration: 1s;
+}
+.orionNebula{
+    border-color:black;
+    font-size: 0px;
+    padding: 5px;
+    border-radius: 4px
+    transform: scale(0);
+    color: white;
+    position: fixed;
+    left: 1218px;
+    top: 785px;
+}
+.orionNebula:hover{
+    font-size: 100%;
+    background-color: rgba(128,128,128,0.5);
+    border-style: solid;
+    transform-origin: top;
+    transform: scale(1) translateY(-20px);
+    transition-duration: 1s;
+}
